@@ -33,6 +33,12 @@ class BasicLayout extends Component {
               <Item key="3"><Link to="/dashboard/monitor">监控页</Link></Item>
               <Item key="4"><Link to="/dashboard/workplace">工作台</Link></Item>
             </SubMenu>
+            <Item key="5">
+              <Link to="/list">
+                <Icon type="pie-chart" />
+                <span>card list</span>
+              </Link>
+            </Item>
           </Menu>
         </Sider>
         <Layout>

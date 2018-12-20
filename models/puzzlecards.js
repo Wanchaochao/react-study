@@ -8,7 +8,6 @@ export default {
       try {
         const endPointURI = '/example/query';
         const puzzle = yield call(request,endPointURI)
-        console.info('puzzle', puzzle)
         yield put({type:'addCard', payload: puzzle})
       }catch (e) {
         console.log('e',e)
@@ -21,8 +20,8 @@ export default {
   },
   reducers: {
     addCard(state, {payload: newCard}) {
-      const nextCounter = state.cardList.length += 1;
-      const nextCard = {newCard,id: nextCounter}
+      const nextCounter = state.cardList.length;
+      const nextCard = {...newCard,id: nextCounter}
       const newList = state.cardList.concat(nextCard)
       console.info(newList)
       return {
