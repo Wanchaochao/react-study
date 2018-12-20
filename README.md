@@ -9,12 +9,12 @@ learn react
 
 <p align="center">
 	<a href="#">
-		<img src="./01.png" width="75">
+		<img src="./01.png" width="">
 	</a>
 </p>
 
 <p align="center">
 	<a href="https:www.littlebug.vip">
-		<img src="./02.png" width="75">
+		<img src="./02.png" width="">
 	</a>
 </p>
