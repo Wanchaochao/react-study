@@ -1,5 +1,13 @@
 # react-study
-learn react
+#### learn react
+
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
 
 <p align="center">
 	<a href="https:www.littlebug.vip">
